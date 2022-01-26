@@ -7,6 +7,12 @@ const graph = {
     f: []
 }
 
+/*
+*
+* INTRODUCTION
+*
+*/
+
 const depthFirstPrint_Iterative = (graph, source) => {
     const stack = [source];
     while(stack.length > 0){
@@ -25,7 +31,7 @@ const depthFirstPrint_Recursive = (graph, source) => {
     }
 }
 
-// depthFirstPrint_Iterative(graph, 'a');
+depthFirstPrint_Iterative(graph, 'a');
 // depthFirstPrint_Recursive(graph, 'a');
 
 const breadthFirstPrint_Iterative = (graph, source) => {
